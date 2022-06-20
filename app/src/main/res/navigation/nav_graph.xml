@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Repository_list_search">
+
+
+    <fragment
+        android:id="@+id/Repository_view"
+        android:name="GithubRepo.image.presentration.Details.DetailsFragment"
+        android:label="Repository"
+        tools:layout="@layout/fragment_details" >
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/Repository_list_search"
+        android:name="GithubRepo.image.presentration.RepositorySearch.RepositorysearchFragment"
+        android:label="Search"
+        tools:layout="@layout/repository_search_fragment" >
+
+
+        <action
+            android:id="@+id/action_list_search_to_Repository_view"
+            app:destination="@id/Repository_view" />
+    </fragment>
+</navigation>

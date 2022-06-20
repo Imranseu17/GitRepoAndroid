@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/github_icon"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textAllCaps="true"
+            android:text="Welcome to Github Android Repository List"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </LinearLayout>
+
+
