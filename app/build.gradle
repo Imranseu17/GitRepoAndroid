@@ -9,9 +9,9 @@ android {
 
     signingConfigs {
         config {
-            keyAlias 'GithubRepo'
+            keyAlias 'gitrepoandroid'
             keyPassword '123456'
-            storeFile file('/home/imran/Downloads/Task/FlickrSearch/flickrSearchJar')
+            storeFile file('/home/imran/AndroidStudioProjects/GitRepoAndroid/gitandroidrepo')
             storePassword '123456'
         }
     }

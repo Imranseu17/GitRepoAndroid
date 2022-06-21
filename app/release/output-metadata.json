@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.rickandmorty",
+  "applicationId": "com.repository.androidrepository",
   "variantName": "release",
   "elements": [
     {
