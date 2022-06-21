@@ -1,4 +1,4 @@
-package com.repository.androidrepository.presentration.Details
+package com.repository.androidrepository.presentration.details
 
 import android.os.Bundle
 import android.view.KeyEvent

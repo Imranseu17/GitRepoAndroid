@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.githubrepo.android"
+        applicationId "com.repository.androidrepository"
         minSdkVersion 21
         targetSdkVersion 32
         versionCode 1
@@ -46,7 +46,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'com.GithubRepo.Android'
+    namespace 'com.repository.androidrepository'
 
 }
 

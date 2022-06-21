@@ -1,4 +1,4 @@
-package com.repository.androidrepository.presentration.ItemsSearch
+package com.repository.androidrepository.presentration.repository
 
 import android.annotation.SuppressLint
 import android.content.Context

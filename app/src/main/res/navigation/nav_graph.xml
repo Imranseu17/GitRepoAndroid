@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/Repository_view"
-        android:name="GithubRepo.image.presentration.Details.DetailsFragment"
+        android:name="com.repository.androidrepository.presentration.details.DetailsFragment"
         android:label="Repository"
         tools:layout="@layout/fragment_details" >
 
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/Repository_list_search"
-        android:name="GithubRepo.image.presentration.RepositorySearch.RepositorysearchFragment"
+        android:name="com.repository.androidrepository.presentration.repository.RepositorysearchFragment"
         android:label="Search"
         tools:layout="@layout/repository_search_fragment" >
 

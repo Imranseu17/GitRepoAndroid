@@ -1,4 +1,4 @@
-package com.repository.androidrepository.presentration.Details
+package com.repository.androidrepository.presentration.details
 
 import android.content.Context
 import android.view.LayoutInflater

@@ -1,4 +1,4 @@
-package com.repository.androidrepository.presentration.RepositorySearch
+package com.repository.androidrepository.presentration.repository
 
 import android.os.Bundle
 import android.text.Editable
@@ -17,7 +17,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.repository.androidrepository.R
 import com.repository.androidrepository.databinding.RepositorySearchFragmentBinding
 import com.repository.androidrepository.models.Items
-import com.repository.androidrepository.presentration.ItemsSearch.RepositorySearchAdapter
 import com.repository.androidrepository.usecase.Resource
 import com.repository.androidrepository.usecase.autoCleared
 import dagger.hilt.android.AndroidEntryPoint

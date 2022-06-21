@@ -1,4 +1,4 @@
-package com.repository.androidrepository.presentration.RepositorySearch
+package com.repository.androidrepository.presentration.repository
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.ViewModel

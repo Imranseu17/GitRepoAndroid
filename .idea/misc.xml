@@ -11,6 +11,8 @@
         <entry key="app/src/main/res/layout/fragment_details.xml" value="0.14492753623188406" />
         <entry key="app/src/main/res/layout/item_repository.xml" value="0.14492753623188406" />
         <entry key="app/src/main/res/layout/repository_search_fragment.xml" value="0.14492753623188406" />
+        <entry key="app/src/main/res/layout/shimmer_layout.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.19270833333333334" />
       </map>
     </option>
   </component>
